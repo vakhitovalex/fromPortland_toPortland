@@ -1,0 +1,153 @@
+
+.cover__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin-bottom: 32px;
+  z-index: 1;
+}
+
+.cover__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  max-width: 320px;
+  z-index: 1;
+}
+
+
+
+
+/* .cover__link {
+  min-height: 740px;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/road.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+.cover__link::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #2A2C2F;
+  opacity: .3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s ease;
+}
+
+.cover__link:hover::after {
+  background-color: #2A2C2F;
+  opacity: .8;
+} */
+
+
+/* .footer {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  margin: 92px auto 0;
+  padding: 0 0 24px;
+} */
+
+/* .footer__links {
+  list-style: none;
+  display: inline;
+  margin: 0 18px 0 0;
+}
+
+.footer__links:last-of-type {
+  margin-right: 0;
+} */
+
+/* .footer__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  transition: ease .5s;
+}
+
+.footer__link:hover {
+  opacity: .5;
+}
+
+.footer__copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+} */
+
+/*
+@media screen and (max-width: 1140px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+
+@media screen and (max-width: 958px) {
+  .cover__link {
+    min-height: 480px;
+  }
+} */
+/*
+@media screen and (max-width: 656px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+} */
+
+
+/* @media screen and (max-width: 425px) {
+  .cover__link {
+    min-height: 200px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .footer {
+    margin: 64px 0 0 16px;
+    flex-direction: column;
+  }
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .footer__links:last-of-type {
+    padding-bottom: 0px;
+  }
+
+  .footer__copyright {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 48px;
+  }
+} */

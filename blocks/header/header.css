@@ -9,3 +9,29 @@
   width: 100%;
   margin: 34px auto 0;
 }
+
+
+@media screen and (max-width: 1140px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+
+@media screen and (max-width: 958px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+/* @media screen and (max-width: 656px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+    min-height: 200px;
+  } */
