@@ -28,14 +28,34 @@
   margin: 0 auto 0;
 }
 
+@media screen and (max-width: 1140px) {
+  .lead {
+    max-width: calc(100vw - 96px);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead {
+    max-width: calc(100vw - 48px);
+  }
+}
+
 .lead__title {
   max-width: 720px;
-  height: 200px;
   margin: 0 auto 32px;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+}
+
+
+@media screen and (max-width: 656px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 auto 16px;
+  }
 }
 
 
@@ -49,6 +69,20 @@
   text-align: center;
 }
 
+@media screen and (max-width: 1140px) {
+  .lead__subtitle {
+    margin: 0 auto 56px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto 40px;
+  }
+}
+
 .lead__image {
   background-image: url(../images/mountains.jpg);
   max-width: 984px;
@@ -59,14 +93,21 @@
   background-position: center;
 }
 
+@media screen and (max-width: 984px) {
+  .lead__image {
+    width: 115%;
+  }
+}
+
+
 .lead__caption {
-  align-self: flex-start;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
-  letter-spacing: .15;
+  letter-spacing: .15em;
   text-transform: uppercase;
-  margin: 8px 0 0;
+  margin-top: 8px;
+  align-self: flex-start;
 }
 
 .intro {
@@ -77,6 +118,12 @@
   min-height: 568px;
   padding-top: 92px;
   margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1140px) {
+  .intro {
+    max-width: calc(100vw - 96px);
+  }
 }
 
 @media screen and (max-width: 984px) {
@@ -158,6 +205,7 @@
   .photo-grid {
     gap: 16px;
     max-width: 720px;
+    margin: 88px auto 0;
   }
 }
 
