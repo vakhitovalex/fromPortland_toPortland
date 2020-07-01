@@ -24,6 +24,22 @@
   }
 }
 
+@media screen and (max-width: 656px) {
+  .header {
+    max-width: 80vw
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-width: 288px;
+  }
+}
+
+
+
+
 /* @media screen and (max-width: 656px) {
   .footer {
     margin: 88px 24px 0;
