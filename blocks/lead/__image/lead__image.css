@@ -1,4 +1,44 @@
 .lead__image {
+  background-image: url(../../../images/mountains.jpg);
   max-width: 984px;
-  max-height: 615px;
+  width: 100%;
+  /*16:9 ratio*/
+  padding-bottom: 56.25%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
+
+/* .lead__image::before {
+  content: " ";
+  background-image: url(../../../images/mountains.jpg);
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: absolute;
+  top: 488px;
+  left: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+
+/* @media screen and (max-width: 1140px) {
+  .lead__image {
+    min-height: 580px;
+  }
+} */
+
+
+@media screen and (max-width: 984px) {
+  .lead__image {
+    width: 100vw;
+  }
+}
+/*
+@media screen and (max-width: 425px) {
+  .lead__image {
+    min-height: 200px;
+  }
+} */

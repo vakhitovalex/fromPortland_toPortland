@@ -3,6 +3,27 @@
   grid-row: 5;
   row-gap: 80px;
   max-width: 984px;
-  max-height: 3452px;
+  /* min-height: 3452px; */
   margin: 92px auto 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: calc(100vw - 96px);
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: calc(100vw - 48px);
+    row-gap: 70px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    max-width: calc(100vw);
+  }
 }
