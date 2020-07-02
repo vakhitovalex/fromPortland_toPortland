@@ -19,3 +19,13 @@
     line-height: 26px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .place__paragraph:first-of-type {
+    margin-top: 32px;
+  }
+}
