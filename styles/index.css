@@ -86,7 +86,6 @@
   max-width: 984px;
   width: 100%;
   padding-bottom: 56.25%;
-  overflow: hidden;
   background-size: cover;
   background-position: center;
 }
@@ -195,14 +194,14 @@
 @media screen and (max-width: 1140px) {
   .photo-grid {
     gap: 14px;
-    max-width: 928px;
+    max-width: calc(100vw - 96px);
   }
 }
 
-@media screen and (max-width: 958px) {
+@media screen and (max-width: 978px) {
   .photo-grid {
     gap: 16px;
-    max-width: 720px;
+    max-width: calc(100vw - 48px);
     margin: 88px auto 0;
   }
 }
@@ -210,6 +209,7 @@
 @media screen and (max-width: 425px) {
   .photo-grid {
     gap: 12px;
+    max-width: calc(100vw - 32px);
     margin: 64px auto 0;
   }
 }
