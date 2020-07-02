@@ -15,8 +15,6 @@
   max-width: 1184px;
   width: 100%;
   margin: 0 auto;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .lead {
@@ -370,33 +368,6 @@
   object-fit: cover;
   width: 100%;
 }
-
-/* @media screen and (max-width: 1140px) {
-  .place__image {
-    max-width: 440px;
-  }
-}
-
-
-@media screen and (max-width: 958px) {
-  .place__image {
-    max-width: 340px;
-  }
-}
-
-@media screen and (max-width: 656px) {
-  .place__image {
-    max-width: 320px;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  .place__image {
-    max-width: calc(100vw);
-  }
-} */
-
 
 .place__paragraph {
   font-weight: normal;
