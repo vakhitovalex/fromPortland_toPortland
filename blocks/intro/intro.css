@@ -1,6 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
+@import url(./__fact/intro__fact.css);
 @import url(./__list/intro__list.css);
 
 
@@ -9,7 +10,6 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 984px;
-  min-height: 568px;
   padding-top: 92px;
   margin: 0 auto 0;
 }

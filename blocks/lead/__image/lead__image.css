@@ -1,13 +1,10 @@
 .lead__image {
-  background-image: url(../../../images/mountains.jpg);
   max-width: 984px;
   width: 100%;
-  /*16:9 ratio*/
-  padding-bottom: 56.25%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
+
 }
 
 

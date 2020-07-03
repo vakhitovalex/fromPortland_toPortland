@@ -1,5 +1,6 @@
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_selected/header__lang-link_selected.css);
 
 
 .header {
@@ -36,18 +37,3 @@
     max-width: 288px;
   }
 }
-
-
-
-
-/* @media screen and (max-width: 656px) {
-  .footer {
-    margin: 88px 24px 0;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  .cover__link {
-    min-height: 200px;
-  } */
