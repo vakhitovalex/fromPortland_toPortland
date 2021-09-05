@@ -1,11 +1,8 @@
 # Project: From Portland to Portland
 
-### https://vakhitovalex.github.io/web_project_3/
+### https://vakhitovalex.github.io/fromPortland_toPortland/
 
 ### Overview
 This project is about traveling across the U.S. from Portland, ME to Portland, OR.
-It's written on pure CSS and HTML.
+Adaptive web page on pure CSS and HTML using flex and grid.
 
-*Things to improve:*
-* Automatic margins to all sections;
-* Create figure element in lead section and address responsive layouts
